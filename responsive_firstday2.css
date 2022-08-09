@@ -1,10 +1,57 @@
+:root{
+    font-size: 62.5%;
+}
+
+
 *, ::before, ::after{
     box-sizing: border-box;
 }
 
 *{
-    font-family: sans-serif;
+    font-family: "Roboto",sans-serif;
     margin: 0;
     padding: 0;
     outline: none;
+}
+
+.top{
+    background-color: #23424A;
+    padding: 6rem 0;
+}
+
+.wrapper{
+
+    width: 80%;
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+
+.wrapper .top__text{
+
+    color: white;
+    width: 70%;
+
+}
+
+.wrapper h1{
+    font-size: 5rem;
+    margin-bottom: 1.2rem;
+}
+
+.wrapper p{
+    font-size: 1.9rem;
+    margin-bottom: 3rem;
+}
+
+.wrapper button{
+    padding: 1rem 3rem;
+    background-color: #38CFD9;
+    color: #23424A;
+    font-weight: 800;
+    text-transform: uppercase;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.7rem;
+    border-radius: 50rem;
 }
