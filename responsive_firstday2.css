@@ -17,9 +17,20 @@
 .nav{
     background-color: #136C72;
     position: fixed;
+
     right: 0;
     left: 0;
     top: 0;
+}
+
+.primary__nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.secondary__nav{
+    display: flex;
+    gap: 2rem;
 }
 
 .nav__list{
@@ -29,7 +40,7 @@
     width: 80%;
     margin: 0 auto;
     max-width: 120rem;
-    gap: 2.5rem;
+    justify-content: space-between;
 }
 
 .nav__link{
