@@ -14,7 +14,39 @@
     outline: none;
 }
 
+.nav{
+    background-color: #136C72;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    padding: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 120rem;
+    gap: 2.5rem;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav__link--button{
+    background-color: white;
+    color: #136C72;
+    padding: 0.3rem 1.3rem;
+    border-radius: 5rem;
+}
+
 .top{
+    margin-top: 5rem;
     background-color: #23424A;
     padding: 6rem 0;
 }
