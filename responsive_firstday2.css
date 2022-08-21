@@ -30,12 +30,14 @@
     margin: 0 auto;
     width: 80%;
     max-width: 120rem;
-    border: 1px red solid;
+
+    
 }
 
 
 
 .primary__nav{
+    margin: 0 auto;
     display: flex;
     gap: 2rem;
 }
@@ -116,7 +118,7 @@
 .wrapper img{
     align-self: flex-start;
     width: 30%;
-    border: 2px solid red;
+
 }
 
 .middle{
@@ -175,3 +177,23 @@
 
 
 
+
+@media (max-width: 850px) {
+    .wrapper,
+    .middle__wrapper{
+        display: block;
+    }
+
+    .wrapper .top__text,
+    .wrapper img,
+    .middle__first-row,
+    .middle__second-row{
+        width: 100%;
+
+    }
+
+    .wrapper img{
+        margin-top: 4rem;
+        max-width: 45rem;
+    }
+}
